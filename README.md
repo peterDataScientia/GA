@@ -25,3 +25,13 @@ The LaTeX source expects all four images in the `assets/` folder, as provided. T
 ## Scientific context
 
 The schematic presents a *Zanthoxylum chalybeum* natural-product docking workflow against Plasmepsin II, 400 ns molecular dynamics per system, trajectory and MM/PBSA analyses, and 3,20,28-trihydroxylupane (THL) as the lead candidate. Numerical figures reflect the supplied manuscript graphics and should be cross-checked against the final manuscript before publication.
+
+## GA Studio — PDF viewer
+
+The Streamlit web app uses the compiled graphical abstract PDF and provides an in-app PDF viewer, direct PDF download, and a refresh button. No AI is required.
+
+**Run locally:** Install Python 3.11+ and run `pip install -r requirements.txt` followed by `streamlit run app.py`.
+
+**Deploy:** In Streamlit Community Cloud, create an app using this GitHub repository, the `main` branch, and `app.py` as the main file. Authorize private-repository access to deploy this repository.
+
+**Viewing PDFs:** The repository's own `graphical_abstract.pdf` is bundled into the app, so preview and download work without an API key. To read the newest PDF directly from a private GitHub repository without waiting for redeployment, configure a read-only `GITHUB_TOKEN` in Streamlit's server-side Secrets; never put it in the app source or a viewer-facing input. The sidebar accepts another repository and PDF path when the token has access to them.
