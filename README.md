@@ -8,9 +8,9 @@
 
 - [graphical_abstract.pdf](graphical_abstract.pdf) — compiled, single-page vector PDF with embedded photographs and plots.
 - [main.tex](main.tex) — editable TikZ/LaTeX source, with GraphPad Prism–inspired color palette and typography.
-- `prism-uploads/botanical_fruits.jpg` and `botanical_stem.jpg` — source photographs.
-- `prism-uploads/hbond_count.png` — 400 ns hydrogen-bond count dynamics for four complexes.
-- `prism-uploads/hbond_occupancy.png` — residue-level hydrogen-bond occupancy comparison.
+- `assets/botanical_fruits.jpg` and `botanical_stem.jpg` — source photographs.
+- `assets/hbond_count.png` — 400 ns hydrogen-bond count dynamics for four complexes.
+- `assets/hbond_occupancy.png` — residue-level hydrogen-bond occupancy comparison.
 
 ## Compile
 
@@ -20,7 +20,7 @@ Upload this repository to Overleaf, keep **main.tex** as the main document, and 
 pdflatex main.tex
 ```
 
-The LaTeX source expects all four images in the `prism-uploads/` folder, as provided. The figure is a 16 × 9 inch canvas, without an external title or caption.
+The LaTeX source expects all four images in the `assets/` folder, as provided. The figure is a 16 × 9 inch canvas, without an external title or caption.
 
 ## Scientific context
 
