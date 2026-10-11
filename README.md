@@ -25,5 +25,3 @@ The LaTeX source expects all four images in the `assets/` folder, as provided. T
 ## Scientific context
 
 The schematic presents a *Zanthoxylum chalybeum* natural-product docking workflow against Plasmepsin II, 400 ns molecular dynamics per system, trajectory and MM/PBSA analyses, and 3,20,28-trihydroxylupane (THL) as the lead candidate. Numerical figures reflect the supplied manuscript graphics and should be cross-checked against the final manuscript before publication.
-
-**Note:** Original botanical image permissions should be confirmed before public redistribution.
