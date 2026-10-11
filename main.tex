@@ -64,7 +64,7 @@
       (0.42,10.68) rectangle (8.54,22.05);
   \node[anchor=center,text=navy,align=center,
     font=\sffamily\bfseries\fontsize{14.9}{17.4}\selectfont]
-      at (4.48,21.42) {BOTANICAL SOURCE};
+      at (4.48,21.42) {Medicinal Plant};
 
   \filldraw[draw=goldA,line width=1.35pt,fill=white,rounded corners=2pt]
       (0.86,13.52) rectangle (4.38,20.58);
@@ -89,15 +89,15 @@
 
   \node[keyblue,fill=blue,text=white,draw=blue] (docking) at (19.93,19.35)
     {\StageTitle{MOLECULAR DOCKING}\\[10pt]
-     \StageBody{AutoDock Vina}\\[5pt]
+     \StageBody{AutoDock Vina Simulation}\\[5pt]
      \StageBody{15 natural products}};
 
   \node[hitstage] (hits) at (27.73,19.35)
     {\StageTitle{TOP DOCKING HITS}\\[7pt]
      \MetricUnits{Docking score (kcal/mol)}\\[9pt]
      \StageBody{THL: \textbf{--8.411}}\\[5pt]
-     \StageBody{SES: \textbf{--8.369}}\\[5pt]
-     \StageBody{NCH: \textbf{--8.138}}};
+     \StageBody{Sesamin (SES): \textbf{--8.369}}\\[5pt]
+     \StageBody{Norchelerythrine (NCH): \textbf{--8.138}}};
 
   \node[keyteal,fill=teal,text=white,draw=teal] (md) at (35.48,19.35)
     {\StageTitle{MOLECULAR DYNAMICS}\\[10pt]
@@ -144,7 +144,7 @@
   \node[align=center,anchor=center,text=navy,
     font=\sffamily\bfseries\fontsize{18.5}{22}\selectfont]
     at (20,9.18)
-    {LEAD CANDIDATE: 3,20,28-TRIHYDROXYLUPANE (THL)};
+    {LEAD: 3,20,28-TRIHYDROXYLUPANE (THL)};
   \draw[blue,line width=1.45pt]
     (0.82,8.10) -- (39.18,8.10);
 
